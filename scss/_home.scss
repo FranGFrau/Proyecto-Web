@@ -1,0 +1,36 @@
+.videoIndex {
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+  overflow: auto;
+  .titulosProductos {
+    margin: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+    justify-content: center;
+  }
+  .fotosProductos {
+    display: block;
+    width: 92%;
+    max-height: 15rem;
+    max-width: 20rem;
+    margin: 0.7rem;
+    transition: all 1s;
+  }
+  .fotosProductos:hover {
+    transform: scale(1.1);
+  }
+  .card {
+    margin-bottom: 2rem;
+  }
+  .col {
+    display: flex;
+    justify-content: space-between;
+  }
+}

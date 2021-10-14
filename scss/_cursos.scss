@@ -1,0 +1,17 @@
+@mixin banner($width, $height, $color, $borde) {
+  width: $width;
+  height: $height;
+  background-color: $color;
+  padding: 1rem;
+  border-radius: $borde;
+}
+
+.banner {
+  @include banner(10rem, 7rem, red, 10px);
+  margin: 3rem;
+}
+
+.banner--azul {
+  @extend .banner;
+  color: blue;
+}

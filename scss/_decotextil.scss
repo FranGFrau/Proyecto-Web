@@ -1,0 +1,51 @@
+.main__decotextil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .container__decotextil {
+    margin-top: 3rem;
+    width: 90%;
+    .card--custom {
+      display: flex;
+      background-color: #a6a09c;
+      height: 30rem;
+      .row {
+        .col {
+          display: flex;
+          align-items: center;
+        }
+        .col-5 {
+          display: flex;
+          justify-content: center;
+          .card__img {
+            width: 23.6rem;
+          }
+        }
+      }
+    }
+    .card--custom2 {
+      display: flex;
+      flex-direction: row-reverse;
+      background-color: #a6a09c;
+      height: 30rem;
+      .row {
+        width: 100%;
+        .col {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          order: 1;
+        }
+        .col-5 {
+          display: flex;
+          justify-content: center;
+          order: 2;
+          .card__img {
+            width: 23.6rem;
+          }
+        }
+      }
+    }
+  }
+}

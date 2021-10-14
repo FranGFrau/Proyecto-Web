@@ -1,0 +1,44 @@
+$size-cajas-form: 30rem;
+$margin-cajas-form: 1.5rem;
+
+.main__form {
+  display: flex;
+  justify-content: center;
+  .container__form {
+    margin-top: 8rem;
+    margin-bottom: 7.7rem;
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50rem;
+      height: 500px;
+      background-image: linear-gradient(#887a70, #a6a09c);
+      padding-top: 3.5rem;
+      border-radius: 50px;
+      border-color: black;
+      .form__nombre {
+        margin-bottom: $margin-cajas-form;
+        width: $size-cajas-form;
+      }
+      .form__email {
+        width: $size-cajas-form;
+        margin-bottom: $margin-cajas-form;
+      }
+      .form__textarea {
+        margin-bottom: $margin-cajas-form;
+        width: $size-cajas-form;
+      }
+      .form__checkbox {
+        margin-bottom: 2.5rem;
+      }
+      .form__btn {
+        border-color: black;
+      }
+      .form__btn:hover {
+        transition: 1s;
+        background-color: #d6c6c6;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.main__productos {
+  .container__productos {
+    width: 100%;
+    .productos__titulos {
+      height: 5rem;
+      color: #a6a09c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(53, 49, 49);
+    }
+    .productos__cards {
+      display: flex;
+      justify-items: center;
+      overflow: hidden;
+      .row {
+        width: 100%;
+        .productos__col {
+          margin: 2rem 0;
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          .productos__img {
+            width: 90%;
+            max-height: 15rem;
+            max-width: 20rem;
+            margin: 1rem;
+            transition: all 1s;
+          }
+          .productos__img:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
