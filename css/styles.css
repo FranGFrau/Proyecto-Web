@@ -221,17 +221,27 @@ body .textos {
   background-color: #d6c6c6;
 }
 
-.banner, .banner--azul {
-  width: 10rem;
-  height: 7rem;
-  background-color: red;
-  padding: 1rem;
-  border-radius: 10px;
-  margin: 3rem;
+.main__sobremi {
+  padding-top: 8rem;
 }
-
-.banner--azul {
-  color: blue;
+.main__sobremi .container__sobremi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #80cbc4;
+  margin: 2rem;
+  padding-top: 3rem;
+}
+.main__sobremi .container__sobremi .textoSobreMi {
+  margin: 2rem;
+}
+.main__sobremi .container__sobremi .imgSobreMi {
+  max-width: 500px;
+}
+.main__sobremi .container__sobremi .mapa {
+  margin-bottom: 1rem;
+  width: 100%;
 }
 
 .footer {

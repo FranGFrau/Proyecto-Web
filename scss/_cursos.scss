@@ -1,17 +1,22 @@
-@mixin banner($width, $height, $color, $borde) {
-  width: $width;
-  height: $height;
-  background-color: $color;
-  padding: 1rem;
-  border-radius: $borde;
-}
-
-.banner {
-  @include banner(10rem, 7rem, red, 10px);
-  margin: 3rem;
-}
-
-.banner--azul {
-  @extend .banner;
-  color: blue;
+.main__sobremi {
+  padding-top: 8rem;
+  .container__sobremi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #80cbc4;
+    margin: 2rem;
+    padding-top: 3rem;
+    .textoSobreMi {
+      margin: 2rem;
+    }
+    .imgSobreMi {
+      max-width: 500px;
+    }
+    .mapa {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+  }
 }
