@@ -1,7 +1,7 @@
 .menuNav {
   width: 100%;
   height: 4.5rem;
-  background-image: linear-gradient(#0e4040fb, #1e8080fb);
+  background-color: #80cbc4;
   font-size: 20px;
   letter-spacing: 1px;
   z-index: 1;
@@ -18,4 +18,11 @@
   .navbar__separacion {
     justify-content: flex-end;
   }
+}
+.collapse {
+  width: 100%;
+}
+.navbar-collapse {
+  background-color: #80cbc4;
+  width: 100%;
 }
