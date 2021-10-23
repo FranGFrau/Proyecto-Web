@@ -308,6 +308,15 @@ body .textos {
   }
 
   /*contacto*/
+  .main__form .container__form .form .form__nombre {
+    width: 23rem;
+  }
+  .main__form .container__form .form .form__email {
+    width: 23rem;
+  }
+  .main__form .container__form .form .form__textarea {
+    width: 23rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

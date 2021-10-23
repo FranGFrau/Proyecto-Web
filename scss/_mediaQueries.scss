@@ -45,4 +45,19 @@
     }
   }
   /*contacto*/
+  .main__form {
+    .container__form {
+      .form {
+        .form__nombre {
+          width: 23rem;
+        }
+        .form__email {
+          width: 23rem;
+        }
+        .form__textarea {
+          width: 23rem;
+        }
+      }
+    }
+  }
 }
