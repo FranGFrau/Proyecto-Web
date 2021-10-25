@@ -2,6 +2,9 @@
   padding-top: 1rem;
   background-image: linear-gradient(#80cbc4, #1c7272fb);
   margin-top: 3rem;
+  .footer__container {
+    display: inline;
+  }
   .footer__redes {
     text-decoration: none;
     letter-spacing: 1px;
@@ -14,5 +17,8 @@
     flex-direction: row-reverse;
     justify-content: right;
     align-items: flex-end;
+  }
+  .footer__info {
+    display: inline;
   }
 }
