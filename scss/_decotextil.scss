@@ -10,10 +10,12 @@
       display: flex;
       background-color: #a6a09c;
       height: 30rem;
+      align-content: center;
       .row {
         .col {
           display: flex;
           align-items: center;
+          justify-content: flex-start;
         }
         .col-5 {
           display: flex;
