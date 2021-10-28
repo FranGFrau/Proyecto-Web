@@ -107,10 +107,12 @@ body .textos {
   display: flex;
   background-color: #a6a09c;
   height: 30rem;
+  align-content: center;
 }
 .main__decotextil .container__decotextil .card--custom .row .col {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 .main__decotextil .container__decotextil .card--custom .row .col-5 {
   display: flex;
@@ -156,7 +158,7 @@ body .textos {
 }
 .main__productos .container__productos .productos__cards {
   display: flex;
-  justify-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 .main__productos .container__productos .productos__cards .row {
@@ -164,7 +166,6 @@ body .textos {
 }
 .main__productos .container__productos .productos__cards .row .productos__col {
   margin: 2rem 0;
-  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -249,6 +250,9 @@ body .textos {
   background-image: linear-gradient(#80cbc4, #1c7272fb);
   margin-top: 3rem;
 }
+.footer .footer__container {
+  display: inline;
+}
 .footer .footer__redes {
   text-decoration: none;
   letter-spacing: 1px;
@@ -261,6 +265,9 @@ body .textos {
   flex-direction: row-reverse;
   justify-content: right;
   align-items: flex-end;
+}
+.footer .footer__info {
+  display: inline;
 }
 
 @media (max-width: 1160px) {
@@ -283,11 +290,6 @@ body .textos {
   }
 
   /*productos*/
-  .productos__cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
   /*deco textil*/
   .container__decotextil .card--custom {
     height: 40rem;
