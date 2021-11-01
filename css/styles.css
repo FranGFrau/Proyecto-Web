@@ -180,13 +180,16 @@ body .textos {
   transform: scale(1.1);
 }
 
-.main__form {
-  display: flex;
-  justify-content: center;
-}
 .main__form .container__form {
   margin-top: 8rem;
   margin-bottom: 7.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__form .container__form .titulo__form {
+  margin-bottom: 5rem;
 }
 .main__form .container__form .form {
   display: flex;
@@ -249,9 +252,11 @@ body .textos {
   padding-top: 1rem;
   background-image: linear-gradient(#80cbc4, #1c7272fb);
   margin-top: 3rem;
+  padding-bottom: 1.9rem;
 }
 .footer .footer__container {
-  display: inline;
+  padding: 0 3rem;
+  justify-content: space-between;
 }
 .footer .footer__redes {
   text-decoration: none;
@@ -263,22 +268,19 @@ body .textos {
 }
 .footer .row {
   flex-direction: row-reverse;
-  justify-content: right;
   align-items: flex-end;
 }
 .footer .footer__info {
   display: inline;
+  font-size: larger;
 }
 
-@media (max-width: 1160px) {
-  /*home*/
-  /*cursos*/
-  /*productos*/
-  /*deco textil*/
-  /*contacto*/
-}
 @media (max-width: 574px) {
   /*home*/
+  .footer__info {
+    font-size: medium;
+  }
+
   .col {
     flex-direction: column;
     align-items: center;

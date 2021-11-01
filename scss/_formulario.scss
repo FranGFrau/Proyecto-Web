@@ -2,11 +2,16 @@ $size-cajas-form: 30rem;
 $margin-cajas-form: 1.5rem;
 
 .main__form {
-  display: flex;
-  justify-content: center;
   .container__form {
     margin-top: 8rem;
     margin-bottom: 7.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .titulo__form {
+      margin-bottom: 5rem;
+    }
     .form {
       display: flex;
       flex-direction: column;

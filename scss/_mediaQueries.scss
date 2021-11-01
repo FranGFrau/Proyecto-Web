@@ -1,12 +1,8 @@
-@media (max-width: 1160px) {
-  /*home*/
-  /*cursos*/
-  /*productos*/
-  /*deco textil*/
-  /*contacto*/
-}
 @media (max-width: 574px) {
   /*home*/
+  .footer__info {
+    font-size: medium;
+  }
   .col {
     flex-direction: column;
     align-items: center;

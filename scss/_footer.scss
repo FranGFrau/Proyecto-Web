@@ -2,8 +2,10 @@
   padding-top: 1rem;
   background-image: linear-gradient(#80cbc4, #1c7272fb);
   margin-top: 3rem;
+  padding-bottom: 1.9rem;
   .footer__container {
-    display: inline;
+    padding: 0 3rem;
+    justify-content: space-between;
   }
   .footer__redes {
     text-decoration: none;
@@ -15,10 +17,10 @@
   }
   .row {
     flex-direction: row-reverse;
-    justify-content: right;
     align-items: flex-end;
   }
   .footer__info {
     display: inline;
+    font-size: larger;
   }
 }
