@@ -6,12 +6,14 @@
   .container__decotextil {
     margin-top: 3rem;
     width: 90%;
+    max-height: 30rem;
     .card--custom {
       display: flex;
       background-color: #a6a09c;
-      height: 30rem;
+      height: 20rem;
       align-content: center;
       .row {
+        width: 100%;
         .col {
           display: flex;
           align-items: center;
@@ -21,7 +23,8 @@
           display: flex;
           justify-content: center;
           .card__img {
-            width: 23.6rem;
+            width: 26.6rem;
+            max-height: 20rem;
           }
         }
       }
@@ -30,7 +33,7 @@
       display: flex;
       flex-direction: row-reverse;
       background-color: #a6a09c;
-      height: 30rem;
+      height: 20rem;
       .row {
         width: 100%;
         .col {

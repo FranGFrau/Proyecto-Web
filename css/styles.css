@@ -102,12 +102,16 @@ body .textos {
 .main__decotextil .container__decotextil {
   margin-top: 3rem;
   width: 90%;
+  max-height: 30rem;
 }
 .main__decotextil .container__decotextil .card--custom {
   display: flex;
   background-color: #a6a09c;
-  height: 30rem;
+  height: 20rem;
   align-content: center;
+}
+.main__decotextil .container__decotextil .card--custom .row {
+  width: 100%;
 }
 .main__decotextil .container__decotextil .card--custom .row .col {
   display: flex;
@@ -119,13 +123,14 @@ body .textos {
   justify-content: center;
 }
 .main__decotextil .container__decotextil .card--custom .row .col-5 .card__img {
-  width: 23.6rem;
+  width: 26.6rem;
+  max-height: 20rem;
 }
 .main__decotextil .container__decotextil .card--custom2 {
   display: flex;
   flex-direction: row-reverse;
   background-color: #a6a09c;
-  height: 30rem;
+  height: 20rem;
 }
 .main__decotextil .container__decotextil .card--custom2 .row {
   width: 100%;
@@ -244,8 +249,9 @@ body .textos {
   max-width: 500px;
 }
 .main__sobremi .container__sobremi .mapa {
+  margin-top: 2rem;
   margin-bottom: 1rem;
-  width: 100%;
+  max-width: 40%;
 }
 
 .footer {
