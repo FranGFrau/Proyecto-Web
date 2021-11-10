@@ -148,6 +148,7 @@ body .textos {
 }
 .main__decotextil .container__decotextil .card--custom2 .row .col-5 .card__img {
   width: 23.6rem;
+  max-height: 20rem;
 }
 
 .main__productos .container__productos {
