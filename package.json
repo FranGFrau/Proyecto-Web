@@ -1,11 +1,11 @@
 {
-  "name": "Proyecto web final",
+  "name": "proyecto web final",
   "version": "1.0.0",
   "description": "sitio web de pantallas illusao, donde se muestran productos, una breve descripcionde quien es y que hizo el dueño",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss:css"
   },
-  "author": "Fran",
+  "author": "Franco Gonzalez Frau",
   "license": "ISC"
 }

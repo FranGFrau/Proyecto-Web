@@ -10,7 +10,13 @@ $margin-cajas-form: 1.5rem;
     justify-content: center;
     align-items: center;
     .titulo__form {
-      margin-bottom: 5rem;
+      width: 100%;
+      height: 5rem;
+      color: #a6a09c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(53, 49, 49);
     }
     .form {
       display: flex;

@@ -9,11 +9,12 @@
   margin: 0 auto;
   overflow: auto;
   .titulosProductos {
-    margin: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-style: italic;
+    height: 5rem;
+    color: #a6a09c;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 49, 49);
   }
   .fotosProductos {
     display: block;
