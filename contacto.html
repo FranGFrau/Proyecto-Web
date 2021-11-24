@@ -98,14 +98,18 @@
     <main class="main main__form">
       <div class="container__form">
         <h3 class="titulo__form">Informacion de contacto</h3>
-        <form class="form">
+        <form
+          class="form"
+          action="https://formspree.io/f/mqknzarz"
+          method="POST"
+        >
           <div class="form-group">
             <label for="nombre">Nombre:</label>
             <input
               class="form-control form__nombre"
               id="nombre"
               type="text"
-              name="nombre"
+              name="name"
             />
           </div>
           <div class="form-group">
@@ -113,8 +117,8 @@
             <input
               class="form-control form__email"
               id="email"
-              type="text"
-              name="email"
+              type="email"
+              name="_replyto"
             />
           </div>
 
@@ -125,6 +129,7 @@
             <textarea
               class="form-control form__textarea"
               id="textoForm"
+              name="message"
             ></textarea>
           </div>
 
